@@ -1,0 +1,258 @@
+/* ===========================
+
+       Laptop Responsive
+
+============================== */
+
+@media ( max-width: 540px) {
+
+       .contact-form form input{
+              width: 300px;
+              height: 40px;
+             }
+             .contact-form form textarea{
+               width: 300px;
+               height: 50px;
+             }
+}
+
+
+@media ( max-width: 450px) {
+
+
+.veer-menu{
+       display: none;
+}
+.mobile-menu-icon{
+       display: flex;
+       justify-content: flex-end;
+       position: absolute;
+       top: 20px;
+       right: 10px;
+}
+.mobile-menu{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+}
+.mobile-menu{
+       display: block;
+       position: absolute;
+       top: 7.5%;
+       left: 0;
+       background: rgb(0, 0, 0, 0.7);
+       z-index: 8;
+       width: 200px;
+       height: 50vh;
+}
+.mobile-menu ul{
+       margin-top: 90px;
+}
+.mobile-menu ul li a{
+       color: #fff;
+       padding: 10px 0;
+       display: block;
+       text-transform: uppercase;
+       font-weight: bold;
+}
+.mobile-menu-icon i{
+       font-size: 30px;
+}
+.mobile-menu-icon i.fa-times{
+       color: red;
+       display: none;
+}
+
+.cover-img-2{
+       height: 10vh;
+}
+.title{
+       top: 16%;
+       left: 50%;
+       width: 70%;
+     }
+.responsive-title h1{
+       font-size: 15px;
+}
+.responsive-title h2{
+       font-size: 15px;
+}
+.social-icon{
+       top: 8%;
+       left: 1%;
+     }
+.veer-cover-title-srction button{
+       top: 22%;
+       left: 50%;
+       padding: 4px 18px;
+       font-size: 10px;
+       }
+    
+.icon i{
+       top: 22%;
+       left: 70.5%;
+       font-size: 10px;
+       padding: 10px 10px;
+        }
+
+.address-details{
+       margin-top: -190px;
+       margin-left: 100px;
+}
+.about-sub-icon{
+       margin-top: -40px;
+       padding-bottom: 20px;
+}
+.responsive-btn button{
+       font-size: 10px;
+       margin-bottom: 20px;
+}
+.s-d-1{
+       margin-left: 120px;
+       margin-top: -80px;
+}
+.product-img{
+       padding: 30px 20px;
+}
+.product-img h4{
+       margin-top: -30px;
+       margin-left: 20px;
+}
+.product-img p{
+       margin-top: -28px;
+       margin-left: 20px;
+}
+.product-img i{
+       margin-top: 20px;
+       margin-left: 30px;
+}
+.product-img-2 h4{
+       margin-top: -30px;
+       margin-left: 20px;
+}
+.product-img-2 p{
+       margin-top: -28px;
+       margin-left: 20px;
+}
+.product-img-2 i{
+       margin-top: 20px;
+       margin-left: 30px;
+}
+.product-img-2{
+       padding: 30px 20px;
+       width: 110%;
+}
+.product-img::before{
+       width: 89%;
+       height: 315px;
+       top: 30px;
+       left: 20px;
+}
+.product-img-2::before{
+       width: 82%;
+       height: 315px;
+       top: 30px;
+       left: 35px;
+}
+.review-title{
+       padding-top: 50px;
+}
+.review-title h1{
+       font-size: 20px;
+}
+.review-title p{
+       font-size: 10px;
+}
+.review-title button{
+       font-size: 14px;
+       padding: 5px;
+       width: 160px;
+       height: 36px;
+}
+.review-title i{
+       margin-top: 180px;
+}
+.review-title i.fa-caret-left{
+       font-size: 20px;
+       padding: 10px;
+       height: 25px;
+       width: 25px;
+}
+.review-title i.fa-caret-right{
+       font-size: 20px;
+       padding: 10px;
+       height: 25px;
+       width: 25px;
+}
+.owl-prev span{
+       font-size: 60px;
+       top: 33%;
+}
+.owl-next span{
+       font-size: 60px;
+       top: 33%;
+} 
+.contact-form form{
+       margin-left: 40px;
+}
+.contact-form form input{
+       width: 260px;
+       height: 40px;
+}
+.contact-form form textarea{
+        width: 260px;
+        height: 50px;
+}
+.contact-form form button{
+       font-size: 13px;
+       height: 30px;
+       width: 100px;
+}
+.sub-menu ul li a{
+       padding: 20px 5px;
+       font-size: 15px;
+}
+.footer{
+       margin-left: -30px;
+}
+.sub-menu{
+       margin-right: 30px;
+}
+.f-p{
+       margin-left: 100px;
+       padding-top: 250px;
+       transform: rotate(90deg);
+       width: 400px;
+}
+.f-i-1{
+       margin-top: -200px;
+       margin-left: -50px;
+}
+.f-a-1{
+       margin-left: 10px;
+       margin-top: -200px;
+}
+.f-i-2{
+       margin-top: -120px;
+       margin-left: -50px;
+}
+.f-a-2{
+       margin-left: 10px;
+       margin-top: -120px;
+}
+.footer-title-end p{
+       font-size: 13px;
+}
+.scroll-btn{
+       width: 40px;
+       height: 40px;
+       margin-right: 20px;
+}
+.scroll-btn a{
+        padding: 10px 10px;
+        font-size: 25px;
+}
+      
+     
+}
